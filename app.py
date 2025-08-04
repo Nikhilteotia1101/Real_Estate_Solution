@@ -19,7 +19,7 @@ logging.basicConfig(
 st.markdown("<h1 style='text-align: center; color: #4CAF50;'>🏡 Real Estate Price Predictor</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
-DATA_PATH = "data/final.csv"
+DATA_PATH = "final.csv"
 try:
     if not os.path.exists(DATA_PATH):
         logging.error("Missing dataset file: data/final.csv")
