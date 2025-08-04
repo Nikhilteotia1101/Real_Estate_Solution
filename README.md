@@ -27,30 +27,23 @@ Real_Estate_Solution/
 ├── app.log # Logs for model and UI activity
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 🔁 Step 1: Clone the Repository
-```bash
+
 git clone https://github.com/Nikhilteotia1101/Real_Estate_Solution.git
 cd Real_Estate_Solution
 📦 Step 2: Install Dependencies
-Create a virtual environment (optional but recommended), then install:
 
-bash
-Copy
-Edit
+Create a virtual environment (optional but recommended), then install:
 pip install -r requirements.txt
+
 🏃 Step 3: Run the Streamlit App
-bash
-Copy
-Edit
+
 streamlit run app.py
+
 📊 Dataset
 Ensure that the final.csv file is present in the root directory. This file is required to load the dataset and train the prediction model. The target variable is price, and input fields are dynamically generated from other columns.
 
@@ -79,6 +72,6 @@ Cloud deployment (Streamlit Community Cloud, AWS, Heroku)
 Nikhil Teotia
 📍 Ottawa, Canada
 🔗 LinkedIn
-✉️ teot0001@algonquinlive.com
+✉️ teot0001@algonquinlive.
 
-🎓 This project is part of the Algonquin College course CST2216 – Business Intelligence System Infrastructure – Individual Term Project.
+
