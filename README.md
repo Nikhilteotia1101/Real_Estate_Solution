@@ -10,7 +10,8 @@ This Streamlit app predicts house prices using a linear regression model.
    pip install -r requirements.txt
    ```
 3. Run the app:
-   ```
+   
+
    streamlit run app.py
    ```
 
