@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 
 # Custom title
-st.markdown("<h1 style='text-align: center; color: #4CAF50;'>🏡 Real Estate Price Predictor</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #4CAF50;'> Real Estate Price Predictor</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 DATA_PATH = "final.csv"
@@ -48,7 +48,7 @@ except Exception as e:
     st.stop()
 
 feature_names = X.columns.tolist()
-st.subheader("🏠 Enter Property Details")
+st.subheader(" Enter Property Details")
 
 with st.form(key='prediction_form'):
     col1, col2 = st.columns(2)
